@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primitivas de graficación</title>
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="shortcut icon" href="/img/object.png"> 
+    <link rel="stylesheet" href="/css/svg.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="/img/object.png" />
+        <h2 class="logo">Primitivas de graficación</h2>
+        <nav>
+          <a href="index.html">Historia</a>
+          <a href="css.html">CSS</a>
+          <a href="svg.html">SVG</a>
+          <a href="dibujo.html">Dibujo</a>
+        </nav>
+      </div>
+    </header>
+    <div id="formas">
+      <h2 class="titulo-figuras">Figuras basicas en CSS</h2>
+
+      <div class="contenedor-figuras">
+        <div class="rectangulo">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="120"
+            height="100"
+            viewBox="0 0 120 100"
+          >
+            <rect x="10" y="10" width="100" height="80" fill="RoyalBlue" stroke-width="5" stroke="white"/>
+          </svg>
+          <h2 id="name">Rectangulo</h2>
+        </div>
+
+        <div class="circulo">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="120"
+            height="120"
+            viewBox="0 0 120 120"
+          >
+            <circle cx="60" cy="60" r="50" fill="RoyalBlue" stroke-width="5" stroke="white"/>
+          </svg>
+          <h2 id="name">Circulo</h2>
+        </div>
+
+        <div class="elipse">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="140"
+            height="80"
+            viewBox="0 0 140 80"
+          >
+            <ellipse cx="70" cy="40" rx="60" ry="30" fill="RoyalBlue" stroke-width="5" stroke="white" />
+          </svg>
+          <h2 id="name">elipse</h2>
+        </div>
+
+        <div class="linea">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="130"
+            height="80"
+            viewBox="0 0 130 80"
+          >
+            <line
+              x1="10"
+              y1="10"
+              x2="120"
+              y2="70"
+              stroke-width="5"
+              stroke="white"
+            />
+          </svg>
+          <h2 id="name">linea</h2>
+        </div>
+
+        <div class="polilinea">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="140"
+            height="110"
+            viewBox="0 0 140 110"
+          >
+            <polyline
+              points="10,70 20,40 40,100 70,10 100,100 120,40 130,70"
+              fill="none"
+              stroke-width="3"
+              stroke="white"
+            />
+          </svg>
+          <h2 id="name">polilinea</h2>
+        </div>
+
+        <div class="poligon">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="140"
+            height="110"
+            viewBox="0 0 140 110"
+          >
+            <polygon points="10,10 30,100 110,100 130,50" fill="RoyalBlue"  stroke-width="5" stroke="white"/>
+          </svg>
+          <h2 id="name">poligon</h2>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Josian Espinosa, Maria Ibarra, Hugo Canul, Alexis xool &copy 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:#20262E;
+    color: #E9E8E8;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{font-size: 4.5em; color:  #C47AFF;}
+h2{font-size: 1.50em;}
+h3{font-size: 2em;}
+p{font-size: 1.30em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+.container{
+    max-width: 1400px;
+    height: 120px;
+    margin: auto;
+}
+
+header{
+    background-color: #645CBB;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #E9E8E8;
+    font-size: 2.5em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+header nav{
+    flex-direction: row;
+    text-align: center; 
+    padding-bottom: 0;
+    padding-left: 400px;
+    font-size: 1.75em;
+    
+}
+
+
+header a{
+    padding: 5px 12px;
+    font-weight: bold;
+    color: #E9E8E8;
+}
+
+header a:hover{
+    color: #BFACE2;
+    text-decoration:  none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.titulo-figuras{font-size: 3em; color:  #C47AFF; text-align: center;}
+
+.contenedor1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3F3B6C;
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+
+.contenedor1 img{
+    filter: drop-shadow(0 2px 5px rgba(147, 147, 147, 0.905));
+}
+
+.texto{
+    padding-left: 25px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+.contenedor2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 600px;
+    background-color: #3F3B6C;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.contenedor2 img{
+    filter: drop-shadow(0 2px 5px rgba(147, 147, 147, 0.905));
+}
+
+.texto2{
+    padding-left: 25px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+.contenedor-dibujo{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+
+footer{
+    margin-top: 150px;
+    background-color: #37424F;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: #E9E8E8;
+}
+
+footer .container{
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items:flex-end;
+}

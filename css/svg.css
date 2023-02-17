@@ -1,0 +1,18 @@
+.contenedor-figuras {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+  }
+  
+  .titulo-figuras{font-size: 3em; color:  #C47AFF; text-align: center;}
+  
+  
+  /* nombre */
+  #name {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 20px;
+  }
